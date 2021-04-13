@@ -1,17 +1,17 @@
-// Select the button
+//button auswählen (class)
 const btn = document.querySelector(".btn-toggle");
-// Select the stylesheet <link>
+// stylesheet link (class)
 const theme = document.querySelector(".theme-link");
 
-// Listen for a click on the button
+// listen für das click element
 btn.addEventListener("click", function() {
-  // If the current URL contains "ligh-theme.css"
+  // wenn die momentane url style/style.css ist
   if (theme.getAttribute("href") == "/style/style.css") {
-    // ... then switch it to "dark-theme.css"
+    // ... dann zu darkmode switchen
     theme.href = "/style/style_dark.css";
-  // Otherwise...
+  // Anderer fall
   } else {
-    // ... switch it to "light-theme.css"
+    // ... switch zu lightmode
     theme.href = "/style/style.css";
   }
 });
