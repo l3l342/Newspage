@@ -24,7 +24,7 @@ footer { border-radius: 0px; }
 .all_about_page {    
     background-color: white;
     width:1020px;
-    height: 1500px;
+    height: 1200px;
 }
 
 
@@ -42,11 +42,17 @@ footer { border-radius: 0px; }
 }
 
 
+.all_impressum {
+    background-color: white;
+    width:1020px;
+    height: 1200px;
+}
+
+
 .all_FaQ {    
     background-color: white;
     width:1020px;
     height: 1200px;
-
 }
 
 
@@ -379,6 +385,25 @@ footer {
 
 
 
+/* BEGINN STYLING VON IMPRESSUM */
+.content_imp {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 140px;
+}
+
+
+.content_imp_last {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 140px;
+    margin-bottom: 300px;
+}
+
+
+
 /* BEGINN MIT KLASSEN / STYLING VON ENERGIEERZEUGERN (WIND; SOLAR ETC) */
 .img_energieer {
     border-radius: 0px;
@@ -438,8 +463,3 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-
-
-
-
