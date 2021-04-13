@@ -1,0 +1,445 @@
+::selection { color: rebeccapurple; }
+
+
+:root {
+    display: grid;
+    place-items: center;
+    background-color: rgb(30, 31, 37);
+}
+
+
+/* abgerundete ecken */
+* { border-radius: 20px; }
+footer { border-radius: 0px; }
+
+
+/*hier kommen die all elemente hin, um die länge etc zu stylen*/
+.all {
+    background-color: white;
+    width:1020px;
+    height: 1800px;
+}
+
+
+.all_about_page {    
+    background-color: white;
+    width:1020px;
+    height: 1500px;
+}
+
+
+.all_datenschutz {
+    background-color: white;
+    width:1020px;
+    height: 1450px;
+}
+
+
+.all_bildrechte {
+    background-color: white;
+    width:1020px;
+    height: 1050px;
+}
+
+
+.all_FaQ {    
+    background-color: white;
+    width:1020px;
+    height: 1200px;
+
+}
+
+
+.all_solar {
+    background-color: white;
+    width:1020px;
+    height: 1800px;
+}
+
+
+.all_windkraft {
+    background-color: white;
+    width:1020px;
+    height: 1850px;
+}
+
+
+.all_erdwärme {
+    background-color: white;
+    width:1020px;
+    height: 1850px;
+}
+
+
+.all_wasserkraft {
+    background-color: white;
+    width:1020px;
+    height: 1850px;
+}
+
+
+.all_biogas {
+    background-color: white;
+    width:1020px;
+    height: 2550px;
+}
+
+
+
+/* switch darkmode button */
+.btn-toggle {
+    position: fixed;
+    font-family: Arial;
+    background-color: rebeccapurple;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    right: +10px;
+    bottom: +20px
+}
+
+
+
+/*überschrift etc*/
+.überschrift {
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 40px;
+    background-color: white ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.freiundunab {
+    text-align: center;
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: bold; 
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+
+
+/* ab hier is für das Dropdown nav element*/
+.center_shit {
+    display: grid;
+    place-items: center;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: transparent;
+    font-family: 'Franklin Gothic Medium';
+}
+ 
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 0px 16px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    color: rebeccapurple; 
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+ 
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*dropdown ende*/
+
+
+
+/*body shit*/
+.sub_header {
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+.foto {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.artkl{
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.artkl::first-letter{ font-size: xx-large; color: rebeccapurple; }
+
+
+a { color: rebeccapurple; }
+
+
+a:hover { color: rebeccapurple;  }
+
+
+
+/*footer stuff*/
+footer {
+    background-color: #272424;
+}
+
+
+.button {
+    font-family: Arial;
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+
+.button_footer {
+    display: grid;
+    place-items: center;
+}
+
+
+.footer_etc {
+    float: left;
+    font-size: 16px;
+    color: black;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+
+
+/*BEGINN STYLING VON ABOUT.HTML*/
+.aboutus {
+    font-family: 'Great Vibes', cursive; ;
+    text-align: center; 
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+
+.link_schule {
+    font-family: 'Great Vibes', cursive; ;
+    text-align: center; 
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#link {
+    text-align: center;
+    font-size: 25px;
+    font-family:  'Mulish', sans-serif;
+    margin-top: 30px ;
+}
+
+
+
+/*BEGINN STYLING VON DATENSCHUTZ.HTML*/
+.p_datenschutz {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+
+/*BEGINN STYLING VON BILDRECHTE.HTML*/
+.bildrechte_h2 {
+    font-family: 'Great Vibes', cursive; ;
+    text-align: center; 
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+
+.vielen_dank {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+
+
+.btn_down {
+    margin-top: 130px;
+    margin-bottom: 150px;
+    display: block;
+    background-color: rgb(24, 23, 23);
+    color: rgb(102, 51, 153);
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.btn_down:hover {background-color: rgb(34, 33, 33);}
+
+
+
+/* BEGINN STYLING FAQ.HTML */
+.FaQ {
+    font-family: 'Great Vibes', cursive; 
+    text-align: center; 
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.FaQ_Fragen {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size:25px;
+    margin-top:60px;
+}
+
+.FaQ_Anwort {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/* BEGINN MIT KLASSEN / STYLING VON ENERGIEERZEUGERN (WIND; SOLAR ETC) */
+.img_energieer {
+    border-radius: 0px;
+    margin-top: 20px ;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+.überschr_energieer {
+    font-family: 'Mulish', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+
+.kurz_erklärung {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+
+.unter_überschr {
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Mulish', sans-serif;   
+    font-size: 18px;
+    line-height: normal;
+}
+
+
+.fragen_vorher_solar {
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Mulish', sans-serif;   
+    font-size: 20px;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+.interview {
+    text-align: left;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: 'Mulish', sans-serif;   
+    font-size: 18px;
+    line-height: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
