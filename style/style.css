@@ -1,6 +1,24 @@
 ::selection { color: rgb(119, 86, 151); }
 
 
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        rgb(30, 31, 37),
+        rgb(30, 31, 37),
+        rebeccapurple,
+        rebeccapurple,
+        rebeccapurple,
+        rgb(30, 31, 37),
+        rgb(30, 31, 37)
+    );
+    border-radius: 20px;
+}
+
+
 :root {
     display: grid;
     place-items: center;
