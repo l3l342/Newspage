@@ -94,7 +94,7 @@ footer { border-radius: 0px; }
 .all_moor {
     background-color: white;
     width:1020px;
-    height: 1800px;
+    height: 2000px;
 }
 
 .all_zeitung {
@@ -476,6 +476,7 @@ footer {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.interview::first-letter{ font-size: xx-large; color: rebeccapurple; }
 
 
 
@@ -505,6 +506,23 @@ footer {
     margin-top: 40px;
     margin-bottom:40px
 }
+
+
+.btn_down_moor {
+    margin-top: 70px;
+    display: block;
+    background-color: rgb(24, 23, 23);
+    color: rgb(102, 51, 153);
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.btn_down_moor:hover {background-color: rgb(34, 33, 33);}
 
 
 /* BEGINN STYLING VON ZEITUNGEN */
