@@ -1,4 +1,4 @@
-::selection { color: rebeccapurple; }
+::selection { color: rgb(119, 86, 151); }
 
 
 :root {
@@ -88,6 +88,19 @@ footer { border-radius: 0px; }
     background-color: white;
     width:1020px;
     height: 2550px;
+}
+
+
+.all_moor {
+    background-color: white;
+    width:1020px;
+    height: 1800px;
+}
+
+.all_zeitung {
+    background-color: white;
+    width:1020px;
+    height: 1800px;
 }
 
 
@@ -462,4 +475,29 @@ footer {
     line-height: normal;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+
+/* BEGINN STYLING PROTESTE */
+.protest_text {
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom:40px
+}
+
+
+/* BEGINN STYLING VON ZEITUNGEN */
+.zitat {
+    margin-top:40px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Mulish', sans-serif;   
+    font-size: 18px;
+    line-height: normal;
 }

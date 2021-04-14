@@ -91,6 +91,20 @@ footer { border-radius: 0px; }
 }
 
 
+.all_moor {
+    background-color: rgb(20, 20, 20);
+    width:1020px;
+    height: 1800px;
+}
+
+
+.all_zeitung {
+    background-color: rgb(20, 20, 20);
+    width:1020px;
+    height: 1800px;
+}
+
+
 
 /* switch darkmode button */
 .btn-toggle {
@@ -481,4 +495,31 @@ footer {
     line-height: normal;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+
+/* BEGINN STYLING PROTESTE */
+.protest_text {
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom:40px
+}
+
+
+
+/* BEGINN STYLING VON ZEITUNGEN */
+.zitat {
+    color: white;
+    margin-top:40px;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Mulish', sans-serif;   
+    font-size: 18px;
+    line-height: normal;
 }
