@@ -124,6 +124,13 @@ footer { border-radius: 0px; }
 }
 
 
+.all_demo {
+    background-color: rgb(20, 20, 20);
+    width:1020px;
+    height: 1700px;
+}
+
+
 
 /* switch darkmode button */
 .btn-toggle {
