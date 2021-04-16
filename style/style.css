@@ -26,8 +26,13 @@
 }
 
 
+
 /* abgerundete ecken */
-* { border-radius: 20px; }
+* { 
+    border-radius: 20px; 
+}
+
+
 footer { border-radius: 0px; }
 
 
@@ -84,7 +89,7 @@ footer { border-radius: 0px; }
 .all_windkraft {
     background-color: white;
     width:1020px;
-    height: 2200px;
+    height: 2300px;
 }
 
 
@@ -549,6 +554,25 @@ footer {
     font-family: Arial;
 }
 .btn_down_moor:hover {background-color: rgb(34, 33, 33);}
+
+
+.btn_down_moor_last {
+    margin-top: 70px;
+    display: block;
+    background-color: rgb(24, 23, 23);
+    color: rgb(102, 51, 153);
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    width: 130px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: Arial;
+    margin-bottom: 120px;
+    font-weight: bold;
+}
+
 
 
 /* BEGINN STYLING VON ZEITUNGEN */
