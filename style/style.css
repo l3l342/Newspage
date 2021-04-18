@@ -148,6 +148,13 @@ footer { border-radius: 0px; }
 }
 
 
+.all_404 {
+    background-color: white;
+    width:1020px;
+    height: 1200px;
+}
+
+
 
 /* switch darkmode button */
 .btn-toggle {
@@ -323,12 +330,14 @@ footer {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 
 .button_footer {
     display: grid;
     place-items: center;
+    cursor: pointer;
 }
 
 
@@ -616,4 +625,23 @@ footer {
     font-size: 18px;
     padding-left: 80px;
     font-weight: bold;
+}
+
+
+
+/* 404 style */
+.head-404 {
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+
+.sad-404 {
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-size: 100px;
+    margin-top: 20px
 }
