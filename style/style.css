@@ -123,7 +123,7 @@ footer { border-radius: 0px; }
 .all_zeitung {
     background-color: white;
     width:1020px;
-    height: 1800px;
+    height: 2200px;
 }
 
 
@@ -609,6 +609,18 @@ footer {
 }
 
 
+.foto-zeitung {
+    border-radius: 0px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 50%; 
+}
+
+
+
 
 /* BEGINN STYLING VON ARTIKELN */
 .überschr-artkl {
@@ -645,3 +657,5 @@ footer {
     font-size: 100px;
     margin-top: 20px
 }
+
+
