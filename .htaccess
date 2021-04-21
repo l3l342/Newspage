@@ -1,1 +1,6 @@
 ErrorDocument 404 /pages-not-found.html
+
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile C:\XAMPP\.htpasswd
+require valid-user
