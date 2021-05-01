@@ -2,5 +2,11 @@ ErrorDocument 404 /pages-not-found.html
 
 AuthType Basic
 AuthName "Protected Site"
-AuthUserFile C:\XAMPP\.htpasswd
+AuthUserFile /home/u206392050/.htpasswd
 require valid-user
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:basauer-wochenzeitung.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?basauer-wochenzeitung.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:basauer-wochenzeitung.com
