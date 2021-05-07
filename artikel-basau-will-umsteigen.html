@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<!--written by Ben D. lol youtube: https://www.youtube.com/watch?v=dQw4w9WgXcQ -->
+<!--written by Ben D. lol -->
 <html lang="de">
     <head>
         <title>Basau will umsteigen ~ Basauer Wochenzeitung</title>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" sizes="32px" href="img/fav.png">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
@@ -22,6 +23,61 @@
                 <p class="freiundunab">Frei und Unabhängig</p>
             </header>
             <hr>
+            <div class="nebeneinander">
+                <div class="menu" onclick="open_nav()">                
+                    <span>
+                        <img src="/img/menu.png">
+                    </span>
+                </div>
+                <div>
+                    <button class="btn-toggle">Switch Themes</button>
+                </div>
+            </div>
+            <div class="mobile-nav" id="mobile-nav">
+                <div class="navbar">
+                    <a href="index.html">Home </a>
+                    <br><br>
+                    <a href="about.html">About us</a>
+                    <br><br>
+                    <div class="dropdown">
+                        <button class="dropbtn">Energieerzeuger ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="kraftw/solar.html">Solar</a>
+                            <a href="kraftw/windkraft.html">Windkraft</a>
+                            <a href="kraftw/erdwärme.html">Erdwärme</a>
+                            <a href="kraftw/wasserkraft.html">Wasserkraft</a>
+                            <a href="kraftw/biogas.html">Biogas</a>
+                        </div>
+                    </div> 
+                    <br><br>
+                    <div class="dropdown">
+                        <button class="dropbtn">Zeitungen ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="zeitung/1.zeitung.html">1. Zeitung</a>
+                            <a href="zeitung/2.zeitung.html">2. Zeitung</a>
+                            <a href="zeitung/3.zeitung.html">3. Zeitung</a>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="dropdown">
+                        <button class="dropbtn">Protestaktionen ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="protest/1.protest.html">"Rettet das Moor"</a>
+                            <a href="protest/2.protest.html">Demos und Proteste</a>
+                        </div>
+                    </div>
+                    <br><br>
+                    <a href="FaQ.html">FaQ</a>
+                    <br><br>
+                    <a href="bildrechte.html">Quellen</a> 
+                </div>  
+            </div>
             <div class="center_shit"> 
                 <div class="navbar">
                     <a href="index.html">Home </a>
@@ -65,7 +121,7 @@
             <h2 class="überschr-artkl">Basau will umsteigen</h2>
             <img src="img/foto_basau.jpg" class="foto" width="868" height="428" alt="Bild aus Basau">
             <p class="interview">
-                Mit diesem Motto startete die 9b am Kopernikus-Gymnasium-Bargteheide in das physikalische Planspiel, welches von Herrn P. geleitet wird. <br><br>
+                Mit diesem Motto startete die 9b am Kopernikus-Gymnasium-Bargteheide in das physikalische Planspiel, welches von Herrn Peters geleitet wird. <br><br>
                 Es findet in dem Fantasie-Dorf Basau statt, welches sich in Zukunft mit eigens generiertem Strom versorgen soll. <br> 
                 Dabei spielen die Schüler Bürgermeister, Ingenieur, Gegner von Kraftwerken und Journalist. 
                 Durch diese „spielerische Art“ können sich die Schüler in einer kreativen Weise über verschiedene Kraftwerksarten informieren. <br><br> 
@@ -77,7 +133,6 @@
                 ist dieses Planspiel ist nicht nur physikalisch wertvoll, sondern fordert von den Gruppen ein hohes Maß an Selbständigkeit und eine gute Beurteilungskompetenz, 
                 sowie kritisches Denkvermögen
             </p>
-            <button class="btn-toggle">Switch Themes</button>
             <footer>
                 <div class="button_footer">
                     <p class="footer_etc"><a href="bildrechte.html">Bildrechte</a></p>
@@ -90,5 +145,6 @@
             </footer>
         </div>
         <script src="scripts/darkmode-switcher.js"></script>
+        <script src="scripts/mobile-navbar.js"></script>
     </body>
 </html>

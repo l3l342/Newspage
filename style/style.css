@@ -200,6 +200,12 @@ footer { border-radius: 0px; }
 }
 
 
+/* Menu bar für mobile */
+.menu,
+.mobile-nav {
+    display: none;
+}
+
 
 /* ab hier is für das Dropdown nav element*/
 .center_shit {
@@ -292,6 +298,8 @@ footer { border-radius: 0px; }
 .foto {
     padding-left: 80px;
     padding-right: 80px;
+    width: 868px; 
+    height: 428px;
 }
 
 
@@ -657,3 +665,493 @@ footer {
     margin-top: 20px
 }
 
+
+
+
+
+/* MEDIA QUERIES; MUSS IMMER UNTEN STEHEN */
+/*@media (max-width: 860px) {
+
+    .überschrift {
+        font-family: 'Monsieur La Doulaise', cursive;
+        font-size: 110px;
+        text-align: center;
+        padding-top: 80px;
+        background-color: rgb(20, 20, 20) ;
+        color: blue;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .freiundunab {
+        text-align: center;
+        font-family: 'Monsieur La Doulaise', cursive;
+        font-weight: bold; 
+        color: white;
+        font-size: 50px;
+        margin-bottom: 40px;
+        margin-top: 0px;
+    }
+
+
+     ab hier is für das Dropdown nav element
+    .center_shit {
+       display: none;
+    }
+}*/
+
+
+
+
+@media (max-width: 480px) {
+    /* runde ecken und margin weg (sieht besser aus) */
+    * { border-radius: 0; }
+    body { margin: 0; }
+
+
+
+    .all {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_about_page {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_datenschutz {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_bildrechte {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_impressum {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_FaQ {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_artikel {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_artikel2 {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_solar {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_windkraft {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_erdwärme {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_wasserkraft {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_biogas {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_zeitung {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_moor {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_demo {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+
+    /* darkmode btn */
+    .btn-toggle {
+        position: static;
+        font-family: Arial;
+        background-color: rebeccapurple;
+        border: none;
+        color: black;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        border-radius: 12px;
+        font-weight: bold;
+        cursor: pointer;
+        right: 0px;
+        bottom: 0px;
+        
+    }
+
+    
+
+    .überschrift {
+        font-family: 'Monsieur La Doulaise', cursive;
+        font-size: 75px;
+        text-align: center;
+        padding-top: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 80px;
+    }
+
+
+    .freiundunab {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Monsieur La Doulaise', cursive; 
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    /* menu bar wieder sehen */
+    .menu {
+        display: block;
+    }
+    
+    
+    .nebeneinander {
+        display:flex; 
+        justify-content:space-between;
+    }
+
+
+    /* Style navbar */
+    /* ab hier is für das Dropdown nav element*/
+    .center_shit {
+        display: grid;
+        place-items: center;
+    }
+
+
+    .navbar {
+        overflow: hidden;
+        background-color: transparent;
+        font-family: 'Franklin Gothic Medium';
+    }
+    
+
+    .navbar a {
+        float: left;
+        font-size: 24px;
+        color: black;
+        text-align: center;
+        padding: 0px 16px;
+        text-decoration: none;
+    }
+
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+
+    .dropdown .dropbtn {
+        font-size: 24px;  
+        border: none;
+        outline: none;
+        color: black;
+        padding: 0px 16px;
+        background-color: inherit;
+        font-family: inherit;
+    }
+
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        color: rebeccapurple; 
+    }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 20px; 
+    }
+    
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    /* damit normale navbar nicht sichtbar ist*/
+    .center_shit {
+       display: none;
+    }
+
+
+    /* ARTIKEL FOTOS ETC */
+    .sub_header {
+        font-family: 'Mulish', sans-serif;
+        font-size: 40px;
+        text-align: left;
+        margin-left: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .foto {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%; 
+        height: 100%;
+        border-radius: 0;
+    }
+
+
+    .artkl{
+        font-family: 'Mulish', sans-serif;
+        font-size: 24px;
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    /* style about-us */
+
+    .about-foto {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%; 
+        height: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+
+
+    /* datenschutz */
+    .p_datenschutz {
+        text-align: center;
+        font-size: 30px;
+        font-family: Arial;
+        margin-bottom: 15px;
+    }
+    
+    .foto-datenschutz {
+        width: 100%; 
+        height: 100%; 
+        margin-top: 40px;
+    }
+
+
+    /* impressum */
+    .content_imp {
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        padding-left: 15px;
+    }
+    
+    
+    .content_imp_last {
+        text-align: left;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        padding-left: 15px;
+        margin-bottom: 50px;
+        
+    }
+
+
+    /* styling von artikel der index.html seite */
+    .interview {
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Mulish', sans-serif;   
+        font-size: 24px;
+        line-height: normal;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .überschr-artkl {
+        font-family: 'Mulish', sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 45px;
+    }
+
+
+    /* STYLING ENERGIEERZEUGERN */
+    .img_energieer {
+        border-radius: 0px;
+        margin-top: 20px ;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%; 
+        height: 100%;
+    }
+    
+    
+    .überschr_energieer {
+        font-family: 'Mulish', sans-serif;
+        font-size: 50px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    
+    
+    .kurz_erklärung {
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    
+    
+    .unter_überschr {
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Mulish', sans-serif;   
+        font-size: 27px;
+        line-height: normal;
+    }
+    
+    
+    .fragen_vorher_solar {
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Mulish', sans-serif;   
+        font-size: 26px;
+        line-height: normal;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    
+    
+    .interview {
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Mulish', sans-serif;   
+        font-size: 24px;
+        line-height: normal;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .interview::first-letter{ font-size: xx-large; color: rebeccapurple; }
+    
+
+    .pro_contra {
+        margin-left: 15px;
+    }
+    
+    
+    .pro_contra_text {
+        text-align: left;
+        margin-left: 18px;
+        font-family: 'Mulish', sans-serif;  
+        font-size: 24px;
+        margin-right: 18px;
+    }
+    
+
+
+    /* STYLE ZEITUNGEN */
+    .zitat {
+        margin-top:40px;
+        text-align: center;
+        padding-left: 80px;
+        padding-right: 80px;
+        font-family: 'Mulish', sans-serif;   
+        font-size: 24px;
+        line-height: normal;
+    }
+    
+    
+    .foto-zeitung {
+        border-radius: 0px;
+        margin-top: 30px;
+        margin-bottom: 60px;
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto;
+        width: 110%; 
+    }
+    
+
+
+    /* PROTESTE STYLING  */
+    .protest_text {
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Mulish', sans-serif;
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom:40px
+    }
+    
+    
+
+}
