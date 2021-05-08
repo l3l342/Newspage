@@ -680,7 +680,7 @@ footer {
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    padding-left: 15px;
+    padding-left: 80px;
 }
 
 
@@ -870,6 +870,7 @@ footer {
         margin-top: 0px;
     }
 
+
     /* menu bar wieder sehen */
     .menu {
         display: block;
@@ -1055,6 +1056,14 @@ footer {
         text-align: center;
         margin-top: 40px;
         margin-bottom: 45px;
+    }
+
+
+    .link-google-formular {
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+        padding-left: 15px;
+        font-weight: bold;
     }
 
 

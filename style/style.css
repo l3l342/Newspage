@@ -650,7 +650,7 @@ footer {
 .link-google-formular {
     font-family: 'Mulish', sans-serif;
     font-size: 18px;
-    padding-left: 15px;
+    padding-left: 80px;
     font-weight: bold;
 }
 
@@ -1044,6 +1044,14 @@ footer {
         text-align: center;
         margin-top: 40px;
         margin-bottom: 45px;
+    }
+
+
+    .link-google-formular {
+        font-family: 'Mulish', sans-serif;
+        font-size: 20px;
+        padding-left: 15px;
+        font-weight: bold;
     }
 
 
