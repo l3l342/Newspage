@@ -16,8 +16,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style/style.css" class="theme-link">
     </head>
-    <body>
-        <div class="all">
+    <body onload="loader();">
+        <div id="loader"></div>
+        <div class="all" style="display:none;" id="all">
             <header>
                 <h1 class="überschrift" id="top">Basauer Wochenzeitung</h1>
                 <p class="freiundunab">Frei und Unabhängig</p>
@@ -155,5 +156,6 @@
         </div>
         <script src="scripts/darkmode-switcher.js"></script>
         <script src="scripts/mobile-navbar.js"></script>
+        <script src="scripts/loader.js"></script>
     </body>
 </html>
