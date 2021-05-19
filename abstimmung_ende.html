@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!--written by Ben D. lol -->
+<html lang="de">
+    <head>
+        <title>Ein Ergebniss ~ Basauer Wochenzeitung</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" sizes="32px" href="img/fav.png">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Prompt:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Prompt:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style/style.css" class="theme-link">
+    </head>
+    <body>
+        <div class="all_artikel">
+            <header>
+                <h1 class="überschrift" id="top">Basauer Wochenzeitung</h1>
+                <p class="freiundunab">Frei und Unabhängig</p>
+            </header>
+            <hr>
+            <div class="nebeneinander">
+                <div class="menu" onclick="open_nav()">                
+                    <span>
+                        <img src="/img/menu.png">
+                    </span>
+                </div>
+                <div>
+                    <button class="btn-toggle">Switch Themes</button>
+                </div>
+            </div>
+            <div class="mobile-nav" id="mobile-nav">
+                <div class="navbar">
+                    <a href="index.html">Home </a>
+                    <br><br>
+                    <a href="about.html">About us</a>
+                    <br><br>
+                    <div class="dropdown">
+                        <button class="dropbtn">Energieerzeuger ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="kraftw/solar.html">Solar</a>
+                            <a href="kraftw/windkraft.html">Windkraft</a>
+                            <a href="kraftw/erdwärme.html">Erdwärme</a>
+                            <a href="kraftw/wasserkraft.html">Wasserkraft</a>
+                            <a href="kraftw/biogas.html">Biogas</a>
+                        </div>
+                    </div> 
+                    <br><br>
+                    <div class="dropdown">
+                        <button class="dropbtn">Zeitungen ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="zeitung/1.zeitung.html">1. Zeitung</a>
+                            <a href="zeitung/2.zeitung.html">2. Zeitung</a>
+                            <a href="zeitung/3.zeitung.html">3. Zeitung</a>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="dropdown">
+                        <button class="dropbtn">Protestaktionen ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="protest/1.protest.html">"Rettet das Moor"</a>
+                            <a href="protest/2.protest.html">Demos und Proteste</a>
+                        </div>
+                    </div>
+                    <br><br>
+                    <a href="FaQ.html">FaQ</a>
+                    <br><br>
+                    <a href="bildrechte.html">Quellen</a> 
+                </div>  
+            </div>
+            <div class="center_shit"> 
+                <div class="navbar">
+                    <a href="index.html">Home </a>
+                    <a href="about.html">About us</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Energieerzeuger ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="kraftw/solar.html">Solar</a>
+                            <a href="kraftw/windkraft.html">Windkraft</a>
+                            <a href="kraftw/erdwärme.html">Erdwärme</a>
+                            <a href="kraftw/wasserkraft.html">Wasserkraft</a>
+                            <a href="kraftw/biogas.html">Biogas</a>
+                        </div>
+                    </div> 
+                    <div class="dropdown">
+                        <button class="dropbtn">Zeitungen ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="zeitung/1.zeitung.html">1. Zeitung</a>
+                            <a href="zeitung/2.zeitung.html">2. Zeitung</a>
+                            <a href="zeitung/3.zeitung.html">3. Zeitung</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbtn">Protestaktionen ►
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="protest/1.protest.html">"Rettet das Moor"</a>
+                            <a href="protest/2.protest.html">Demos und Proteste</a>
+                        </div>
+                    </div>
+                    <a href="FaQ.html">FaQ</a>
+                    <a href="bildrechte.html">Quellen</a> 
+                </div> 
+            </div>
+            <hr/>
+            <h2 class="überschr-artkl">Die Wahl ist entschieden</h2>
+            <img src="img/abstimmung.jpg" class="foto" width="868" height="428" alt="Bild aus Basau">
+            <p class="interview">
+                Heute Mittag verkündete die Gemeinde, das zukünftige Kraftwerk in Basau stehe fest. <br><br>
+                Die Bürger stimmten mit 55% für eine Biogasanlage in Kombination mit Solarenergie. 30% der Stimmen erhielt Biogas mit Windkraft.
+                Mit 11% landet Biogas und Wasserkraft auf dem dritten Platz. Die Kombination Biogas und Erdwärme belegt somit den lezten Platz mit 4% der Stimmen. <br><br>
+                Die Bürger, begründeten ihre Entscheidung häufig damit, dass Biogasanlagen nicht nur CO2-neutral seien, 
+                sondern auch viele gute Nebeneffekte für die Umwelt bieten würden. 
+                Allerdings könne die Anlage bei weitem nicht die jährliche benötigte Stromversorgung von 1,4 Milliarden kWh erreichen und müsse 
+                demnach mit einem anderen Kraftwerk kombiniert werden. Dafür würden sich Photovoltaik-Anlagen gut eignen, da diese lange Zeit halten, 
+                ebenfalls nicht klimagefährdend sind und sich an einer beinahe unbegrenzter Energiequelle, dem Licht Sonne, bedienen. <br><br>
+                Der einzige größere Nachteil: 
+                Solaranlagen funktionieren nur bei Tage und möglichst gering bewölktem Himmel. <br><br>
+                Während die etwa 5 Millionen Euro teure Biogasnalage im Bereich zwischen dem Industriegebiet und dem Wald gebaut werden soll, 
+                werden die Photovoltaik-Anlagen jeweils auf den Dächern der Bewohner installiert. Eine Solaranlage kostet inklusive Anbringung zwischen 13.000 und 22.000 Euro.<br><br>
+                Viele Bewohner sehen die Entscheidung Basaus optimistisch und begrüßen den Schritt in Richtung Umweltschutz und unabhängiger Stromversorgung
+            </p>
+            <footer>
+                <div class="button_footer">
+                    <p class="footer_etc"><a href="bildrechte.html">Bildrechte</a></p>
+                    <p class="footer_etc"><a href="impressum.html">Impressum</a></p>
+                </div>
+                <div class="button_footer">
+                    <button type="button" class="button" onclick="window.location.href = '#top';">Nach Oben</button>
+                </div>
+            </footer>
+        </div>
+        <script src="scripts/darkmode-switcher.js"></script>
+        <script src="scripts/mobile-navbar.js"></script>
+    </body>
+</html>
