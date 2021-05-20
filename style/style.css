@@ -150,6 +150,13 @@ footer { border-radius: 0px; }
 }
 
 
+.all_abstimmung {
+    background-color: white;
+    width:1020px;
+    height: 2200px;
+}
+
+
 .all_404 {
     background-color: white;
     width:1020px;
@@ -864,6 +871,12 @@ footer {
     }
 
     .all_demo {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .all_abstimmung {
         width: 100%;
         height: 100%;
         overflow: hidden;

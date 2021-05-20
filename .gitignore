@@ -1,5 +1,5 @@
 #ignore
-/.vscode
+.vscode/*
 /.passwort_sicherung
 /.nicht_verwendet
 /.vscode 
