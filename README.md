@@ -14,6 +14,8 @@ Maybe the Code is also something for your own project.
 
 ### License: MIT License
 
+===========================================================================
+
 ## Link
 https://l3l342.github.io/Newspage/ 
 
